@@ -108,6 +108,9 @@ img {
     color: var(--brand-color)
 }
 .connection .connection-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: var(--light-font-color);
     text-decoration: none;
     font-weight: 500;
@@ -115,6 +118,7 @@ img {
     line-height: 1.14;
     letter-spacing: 0.02em;
     fill: var(--light-font-color);
+   
 }
 .connection-link + .connection-link {
     margin-left: 50px;
@@ -295,12 +299,12 @@ img {
     height: 20px;
 }
 .team-socials-link {
-    display: block;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50px;
     width: 44px;
     height: 44px;
-    padding: 12px;
     fill: #AFB1B8;
 }
 .team-socials-link:hover,
@@ -469,12 +473,14 @@ img {
     height: 20px;
 }
 .footer-social-link {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #43444D;
     border-radius: 50px;
     width: 44px;
     height: 44px;
-    padding: 12px;
+    
     fill: #fff;
 }
 .footer-social-link:hover,
